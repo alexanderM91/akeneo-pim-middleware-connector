@@ -8,10 +8,16 @@
     "spryker/kernel": "^3.0.0",
     "spryker/locale": "^3.0.0",
     "spryker/tax": "^5.0.0",
-    "spryker-eco/akeneo-pim": "^1.0.0",
+    "alexanderM91/akeneo-pim": "dev-master",
     "spryker-middleware/process": "^1.0.0",
     "spryker/data-import": "^1.0.0"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/alexanderM91/akeneo-pim.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "SprykerEco\\": "src/SprykerEco/"
